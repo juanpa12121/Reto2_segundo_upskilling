@@ -1,0 +1,54 @@
+Plan de pruebas Reto 2 segundo upskilling
+
+URL: https://reqres.in/api/login
+
+Contexto general:
+Con la HU se espera valdiar el correcto funcionamiento del login al mandar el correo y la contraseña.
+
+Alcance:
+Se realizarán pruebas en el path de login de la api, para valdiar su funcionalidad, con los siguientes escenarios
+* Login con correo correcto, se espera que la transacción sea exitosa.
+* Login con formato de correo incorrecto, se espera que la transacción falle.
+* Login sin correo y contraseña, se espera que la transacicón falle.
+* Login con correo vacio o contraseña vacía, se espera que la transacción falle.
+
+Fuera del alcance:
+Cualquier funcionalidad no descrita en el alcance
+
+
+Estrategia:
+Para las pruebas definidas en el alcance, se usarán pruebas funcionales End to End (automatizadas), de forma que se pueda abarcar todo el funcionamiento del sistema.
+
+* Se consume la api https://reqres.in/api/login, en cada escenario, para verificar la respuesta y verificar que se cumplan las parametrizaciones del alcance
+
+
+Prerrequisitos:
+
+Ambiente CALIDAD.
+Tener Data para consumir los servicios.
+
+
+Supuestos y limitaciones:
+
+
+Se contará con ambiente estable de pruebas.
+Analista de todas las partes afectadas disponibles para la solución de Bug's encontrados.
+ 
+
+Líneas impactadas
+
+Células de Desarrollo back
+Performance.
+Ciberseguridad.
+Equipo Funcional
+ 
+
+Equipo de trabajo
+
+Analista de desarrollo:
+Analista de pruebas:  Juan Pablo Rivera Jiménez
+ 
+
+Usuario
+
+PO
